@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-xxxxxxxxxxxx" crossorigin="anonymous">
+
+
+    <title>Jumia</title>
+  </head>
+
+  
+  
+  <body>
+    <div class="container">
+  <div class="row">   
+  <div class="col-8">
+    <nav class="navbar navbar-light bg-light">
+       <div class="container-fluid">
+        <a class="navbar-brand mx-3" >Jumia</a>
+        <form class="d-flex">
+          <input class="form-control mx-" type="text" placeholder="Cherchez un produit, une marque ou une categorie" aria-label="Search" >
+          <button class="btn btn-warning" type="submit">Rechercher</button>
+        </form>
+      <!-- </div> -->
+    </nav>
+  </div>
+
+  
+  <div class="col-2 mt-2">
+    <div class="d-flex align-items-center">
+      <div class="btn-group">
+  <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person mb-2" viewBox="0 0 16 16">
+      <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+    </svg>
+    Se connecter
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <button type="button" class="btn btn-warning ms-3">
+      Se connecter
+    </button>
+    <li><a class="dropdown-item" href="#">Votre Compte </a></li>
+    <li><a class="dropdown-item" href="#">Vos commandes</a></li>
+    <li><a class="dropdown-item" href="#">Votre liste d'envies</a></li>
+  </ul>
+</div>
+  </div>
+</div>
+
+  <div class="col-1 mt-2">
+    <div class="d-flex align-items-center">
+      <div class="btn-group">
+  <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle mb-2" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+      <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+    </svg>
+    Aide
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end ">
+    <li><a class="dropdown-item" href="#">centre d'assistance</a></li>
+    <li><a class="dropdown-item" href="#">Passer et suivre ma commande</a></li>
+    <li><a class="dropdown-item" href="#">Annuler ma commande</a></li>
+    <li><a class="dropdown-item" href="#">Retour et remboursement</a></li>
+    <li><a class="dropdown-item" href="#">paiement et compte jumia</a></li>
+    <button type="button" class="btn btn-warning ms-3 ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+      </svg>
+      Chat en direct</button>
+  </ul>
+</div>
+  </div>
+</div>
+<div class="col-1 mt-3">
+  <div class="d-flex align-items-center">
+    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+    </svg>
+    <p class="ms-2 mb-0">Panier</p>
+  </div>
+</div>
+   
+  </div>
+
+    <!--1st row-->
+    <div class="row">
+      
+
+      <div class="col-2" >
+        
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action">Boutiques officielles</a>
+          <a href="#" class="list-group-item list-group-item-action">Supermarche</a>
+          <a href="#" class="list-group-item list-group-item-action">Maison et bureau</a>
+          <a href="#" class="list-group-item list-group-item-action">Televisions et Tablettes </a>
+          <a href="#" class="list-group-item list-group-item-action">Electroniques</a>
+          <a href="#" class="list-group-item list-group-item-action">Beautes et Hygiene</a>
+          <a href="#" class="list-group-item list-group-item-action">Produits pour Bebe</a>
+          <a href="#" class="list-group-item list-group-item-action">Agriculture et elevage</a>
+          <a href="#" class="list-group-item list-group-item-action">Informatique</a>
+          <a href="#" class="list-group-item list-group-item-action">Mode homme</a>
+          <a href="#" class="list-group-item list-group-item-action">Mode femme</a>
+          <a href="#" class="list-group-item list-group-item-action">Autre categories</a>
+
+        </div>
+      </div>
+
+      <div class="col-8" >
+
+        
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://ci.jumia.is/cms/00---JA23/AINFINIX/CI_W25_S_ACD_JA_LIVE_SBD_INFINIX.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://ci.jumia.is/cms/00---JA23/00-S/J23_Gen-2-V2.gif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://ci.jumia.is/cms/00---JA23/00-S/CI_W16_NLC_LRM-min.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+      </div>
+
+      <div class="col-2 mt-3" >
+        <div class="card " style="width: 16rem;">
+          <img src="https://ci.jumia.is/cms/00---JA23/AINFINIX/CI_W25_ET_JA_LIVE_SBD_INFINIX.gif" class="card-img-top" alt="...">
+        </div>
+
+        <div class="card" style="width: 16rem;">
+          <img src="https://ci.jumia.is/cms/00---JA23/A00/CI_W23_ET_JA_lIVE.gif" class="card-img-top" alt="...">
+         
+        </div>
+      </div>
+     
+    </div>
+
+
+
+<!--2nd row-->
+    <div class="row">
+    
+
+      <div class="col-2">
+
+       
+            <img src="https://ci.jumia.is/cms/1_2023/W14/D1/CI_W14_FREELINKS_BLOC_9.png" class="card-img-top" alt="...">
+            <p class="card-text">Vente flash.</p>
+         
+              <img src="https://ci.jumia.is/cms/1_2023/W21/CI_W21_FREELLINKS_DESTOCKAGE.png" class="card-img-top" alt="...">
+              <p class="card-text">Jusqu'a 80%</p>
+            
+      </div>
+
+
+      <div class="col-2">
+       
+        
+            <img src="https://ci.jumia.is/cms/1-2023/W20/D3/Sans-titre-2.png" class="card-img-top" alt="...">
+            <p class="card-text "></p>
+         
+         
+              <img src="https://ci.jumia.is/cms/1_2023/W14/D1/CI_W14_FREELINKS_BLOC_4.png" class="card-img-top py-4" alt="...">
+              <p class="card-text pb-4"></p>
+            
+
+      </div>
+
+      <div class="col-2">
+        
+            <img src="https://ci.jumia.is/cms/00---JA23/Sans-titre-.gif" class="card-img-top" alt="...">
+            <p class="card-text">Jumia anniversaire</p>
+         
+        
+              <img src="https://ci.jumia.is/cms/00---JA23/FLR/mode-homme.png" class="card-img-top" alt="...">
+              <p class="card-text">Mode homme</p>
+            
+      </div>
+
+      <div class="col-2">
+       
+            <img src="https://ci.jumia.is/cms/00---JA23/FLR/CI_W23_FREELINKS_JA.gif" class="card-img-top" alt="...">
+            <p class="card-text">univers jeux</p>
+         
+          
+              <img src="https://ci.jumia.is/cms/00---JA23/FLR/maison.png" class="card-img-top" alt="...">
+              <p class="card-text">Maison & bureau</p>
+            
+      </div>
+
+      <div class="col-2">
+        
+            <img src="https://ci.jumia.is/cms/00---JA23/FLR/telephone.png" class="card-img-top" alt="...">
+            <p class="card-text">Telephonie</p>
+
+         
+         
+              <img src="https://ci.jumia.is/cms/00---JA23/FLR/electro.png" class="card-img-top" alt="...">
+              <p class="card-text">Electromenager</p>
+
+           
+      </div>
+
+      <div class="col-2">
+        
+            <img src="https://ci.jumia.is/cms/00---JA23/FLR/informatique.png " class="card-img-top" alt="...">
+            <p class="card-text">informatique</p>
+         
+          
+              <img src="https://ci.jumia.is/cms/00---JA23/FLR/tv1.png" class="card-img-top" alt="...">
+              <p class="card-text">Tv & Audio</p>
+            
+      </div>
+
+
+     
+    </div>
+
+
+
+      
+
+      
+      <div class="row">   
+
+          <nav class="navbar navbar-light bg-light navbar-custom ">
+            <div class="container-fluid"> 
+            <div class="col-6">
+              <h5>Vente Flash</h5>
+             
+            <!-- </div> -->
+
+          </div> 
+       
+            <div class="col-5 ">
+              <p>Termine dans: 04j : 01h : 57m</p>
+              </div>
+            
+              <div class="col-1">
+                <div class="d-flex align-items-center">
+                  <p class="ms-2 mb-0">VOIR PLUS</p>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+
+       
+      
+        
+            
+         
+      </div>
+      <!-- end of navbar -->
+      
+
+
+
+
+
+
+
+
+<div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="false">
+  <!-- <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div> -->
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+     <div class="card-group">
+      <div class="card">
+       <img src="https://ci.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/77/047362/1.jpg?5824" class="card-img-top" alt="...">
+       <div class="card-body">
+       <h5 class="card-title">Card title</h5>
+       <p class="card-text">This is a wider.</p>
+       <p class="card-text"><small class="text-muted">To be modified soon</small></p>
+       <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 10%"></div>
+      </div> 
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://ci.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/27/660152/1.jpg?3145" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting.</p>
+      <p class="card-text"><small class="text-muted">To be modified soon</small></p>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 10%"></div>
+      </div> 
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://ci.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/51/476341/1.jpg?3945" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider.</p>
+      <p class="card-text"><small class="text-muted">To be modified soon</small></p>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 10%"></div>
+      </div> 
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://ci.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/82/732902/1.jpg?0786" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider.</p>
+      <p class="card-text"><small class="text-muted">To be modified soon</small></p>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 10%"></div>
+      </div> 
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://ci.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/45/072402/1.jpg?2411" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider.</p>
+      <p class="card-text"><small class="text-muted">To be modified soon</small></p>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 10%"></div>
+      </div> 
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://ci.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/33/783342/1.jpg?9314" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider.</p>
+      <p class="card-text"><small class="text-muted">To be modified soon</small></p>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 10%"></div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+    </div>
+    <div class="carousel-item">
+
+<div class="card-group">
+  <div class="card">
+    <img src="https://ci.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/24/518142/1.jpg?5251" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card.</p>
+      <p class="card-text"><small class="text-muted">To be modified soon</small></p>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 10%"></div>
+      </div> 
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://ci.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/47/335891/1.jpg?3767" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card is wider.</p>
+      <p class="card-text"><small class="text-muted">To be modified soon</small></p>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 10%"></div>
+      </div> 
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://ci.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/08/196791/1.jpg?8888" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider.</p>
+      <p class="card-text"><small class="text-muted">To be modified soon</small></p>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 10%"></div>
+      </div> 
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://ci.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/90/159442/1.jpg?8529" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider.</p>
+      <p class="card-text"><small class="text-muted">To be modified soon</small></p>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 10%"></div>
+      </div> 
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://ci.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/00/710752/1.jpg?4301" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider.</p>
+      <p class="card-text"><small class="text-muted">To be modified soon</small></p>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 10%"></div>
+      </div> 
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://ci.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/82/599841/1.jpg?5487" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider </p>
+      <p class="card-text"><small class="text-muted">To be modified soon</small></p>
+      <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar" style="width: 10%"></div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+     
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</div>
+  </body>
+</html>
